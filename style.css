@@ -1,0 +1,150 @@
+/* Body */
+html {
+    background-color: #282A36;
+    color: #F8F8F2;
+    font-family: 'PT Sans', sans-serif, monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: .85;
+}
+
+main {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+/* Header */
+
+#main-header {
+    color: #F8F8F2;
+    background-color: #282A36;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-header h1 {
+    font-weight: 100;
+}
+
+#main-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#main-header nav li {
+    margin-left: 10px;
+}
+
+#main-header nav a {
+    text-decoration: none;
+}
+
+/* Footer */
+
+#main-footer {
+    background-color: #282A36;
+    font-size: 16px;
+    font-weight: 100;
+    color: #F8F8F2;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+#main-footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#main-footer nav li {
+    margin: 0 15px;
+}
+
+#main-footer nav a {
+    color: #F8F8F2;
+    text-decoration: none;
+}
+
+
+/* Paragraphs, sections, etc. */
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1;
+    line-height: 1.25;
+}
+
+h2 {
+    color: #F8F8F2;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h3 {
+    color: #F8F8F2;
+    text-align: left;
+}
+
+h4 {
+    color: #F8F8F2;
+    text-align: center;
+}
+
+h5 {
+    color: #F8F8F2;
+    text-align: center;
+}
+
+h6 {
+    color: #F8F8F2;
+    text-align: center;
+}
+
+p, li {
+    color: #F8F8F2;
+}
+
+code {
+    background-color: #6272A4;
+    font-family: 'JetBrains Mono', 'Fira Code', sans-serif;
+    color: #50FA7B;
+}
+
+/* Lists */
+
+ol li {
+    color: #F8F8F2;
+    font-size: 1rem;
+    margin-bottom: .75%;
+}
+
+/* Behaviors */
+
+a:link {
+    color: #FFB86C
+}
+
+a:visited {
+    color: #FF5555;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
