@@ -20,6 +20,7 @@ main {
     color: #F8F8F2;
     background-color: #282A36;
     text-align: center;
+    text-decoration: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -32,11 +33,14 @@ main {
 }
 
 #main-header h1 {
+    color: #FFB86C;
     font-weight: 100;
+    text-decoration: none;
 }
 
 #main-header nav ul {
     list-style: none;
+    font-size: 12px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -49,6 +53,16 @@ main {
 }
 
 #main-header nav a {
+    color: #FFB86C;    
+    text-decoration: none;
+}
+
+#main-header a:hover {
+    color: #FFB86C;
+    text-decoration: none;
+}
+
+#main-header a:visited {
     text-decoration: none;
 }
 
@@ -56,12 +70,16 @@ main {
 
 #main-footer {
     background-color: #282A36;
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 100;
     color: #F8F8F2;
     text-align: center;
     padding: 10px;
     width: 100%;
+}
+
+#main-footer p {
+    font-size: 11px;
 }
 
 #main-footer nav ul {
@@ -88,6 +106,7 @@ p {
     font-size: 1rem;
     margin-bottom: 1;
     line-height: 1.25;
+    text-rendering: optimizeLegibility;
 }
 
 h2 {
@@ -141,7 +160,7 @@ a:link {
 }
 
 a:visited {
-    color: #FF5555;
+    color: #50FA7B;
 }
 
 a:hover {
